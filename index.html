@@ -1,0 +1,45 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>Подбери ноту</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <style media="handheld">
+        body {
+            max-width: 320px; /* Максимальная ширина страницы в пикселах */
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+<h1>Упражнение на тренировку музыкального слуха</h1>
+<p>Это простое приложение, которое позволяет тренировать музыкальный слух для музыкантов самого начального уровня подготовки.</p>
+
+<p>Только одна нота. Только одна октава. Только любимый ля-минор (без чёрных клавиш на пианино).</p>
+
+<p>Когда будете готовы, нажмите кнопку <kbd>play</kbd>. Прозвучит нота.
+Нужно запомнить звучание этой ноты и попытаться подобрать её на музыкальном инструменте.
+При этом лучше тихонько пропевать её чтобы не забыть.
+Если забыли, то можно нажать
+на кнопку <kbd>повторить</kbd> чтобы услышать её ещё раз. Когда удастся подобрать нужную ноту, нажмите на её название.
+Программа проверит корректность и сообшит правильный ответ. Также собирается статистика правильных ответов,
+и показываетя общее время занятия.</p>
+
+<p>Этот тренажёр я сделал для себя, мне нужен внешний контроль в упражнениях на развитие слуха.
+Я верю, что если регулярно заниматься каждый день хотя бы 15 минут, то через некоторое время уже можно будет переходить
+к тренировкам на распознавание интервалов и к мелодическим диктантам.</p>
+
+<button type="button" class="btn btn-default">
+    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Play
+</button>
+
+<button type="button" class="btn btn-default">
+    <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Повторить
+</button>
+
+</div>
+</body>
+</html>
